@@ -2,7 +2,11 @@ import { globalReducer } from "react-hook-utils";
 
 import { guid } from "../utils";
 
-export const newTodo = label => ({ done: false, id: guid(), label });
+export const newTodo = label => ({
+  done: false,
+  id: guid(),
+  label: (label || "").trim()
+});
 
 export const reducer = {
   // Delete a todo by id

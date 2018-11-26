@@ -1,11 +1,11 @@
 import { useCallback, useState } from "react";
 
-export default function useInput(defaultValue, trim) {
+export default function useInput(defaultValue) {
   const [value, setValue] = useState(defaultValue || "");
 
   const onChange = useCallback(event => {
-    setValue(trim ? event.target.value.trim() : event.target.value);
+    setValue(event.target.value);
   });
 
-  return [value, onChange];
+  return [value, onChange, setValue];
 }

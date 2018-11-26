@@ -49,11 +49,13 @@ export default function TodoList() {
     [todos]
   );
 
-  const [newValue, onNewValueChange] = useInput("", true);
+  const [newValue, onNewValueChange, setNewValue] = useInput();
   const onAddTodo = useOnEnter(
     () => {
-      onNewValueChange({ target: { value: "" } });
-      addTodo(newValue);
+      if (newValue) {
+        addTodo(newValue);
+        setNewValue("");
+      }
     },
     [newValue]
   );
@@ -65,8 +67,7 @@ export default function TodoList() {
         <input
           className="new-todo"
           placeholder="What needs to be done?"
-          onKeyDown={onAddTodo}
-          autoFocus={true}
+          onKeyPress={onAddTodo}
           value={newValue}
           onChange={onNewValueChange}
         />
