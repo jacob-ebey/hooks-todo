@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/hooks-todo/static/js/runtime~main.70222a08.js"
   },
   {
-    "revision": "82d6bff2ef08f70bc184",
-    "url": "/hooks-todo/static/js/main.82d6bff2.chunk.js"
+    "revision": "22779fd5a2b4f09a3702",
+    "url": "/hooks-todo/static/js/main.22779fd5.chunk.js"
   },
   {
     "revision": "cf7d0eabfce8a0e4f321",
     "url": "/hooks-todo/static/js/1.cf7d0eab.chunk.js"
   },
   {
-    "revision": "82d6bff2ef08f70bc184",
+    "revision": "22779fd5a2b4f09a3702",
     "url": "/hooks-todo/static/css/main.77336b16.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/hooks-todo/static/css/1.1480fc60.chunk.css"
   },
   {
-    "revision": "131824203c026429ee552ef6a478f45a",
+    "revision": "003e6f891a173fac2c56fcab5dc9c0ed",
     "url": "/hooks-todo/index.html"
   }
 ];
