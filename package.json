@@ -2,7 +2,6 @@
   "name": "hooks-todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jacob-ebey.github.io/hooks-todo",
   "dependencies": {
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
@@ -16,10 +15,12 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "jest": "23.6.0"
+    "jest": "23.6.0",
+    "serve": "^10.0.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
