@@ -2,6 +2,7 @@ import React, { useCallback, useRef, useState } from "react";
 import useOnClickOutside from "use-onclickoutside";
 
 import useDoubleClick from "../hooks/useDoubleClick";
+import useOnEnter from "../hooks/useOnEnter";
 import useTodos from "../reducers/useTodos";
 
 export default function TodoItem({ todo }) {
@@ -16,14 +17,24 @@ export default function TodoItem({ todo }) {
   ]);
 
   const handleViewClick = useDoubleClick(null, () => setEditing(true));
+  const finishedCallback = useCallback(
+    () => {
+      setEditing(false);
+      setLabel(todo.id, todo.label.trim());
+    },
+    [todo]
+  );
+
+  const onEnter = useOnEnter(finishedCallback, [todo]);
   const ref = useRef();
-  useOnClickOutside(ref, () => setEditing(false));
+  useOnClickOutside(ref, finishedCallback);
 
   return (
     <li
+      onClick={handleViewClick}
       className={`${editing ? "editing" : ""} ${todo.done ? "completed" : ""}`}
     >
-      <div ref={ref} className="view" onClick={handleViewClick}>
+      <div className="view">
         <input
           type="checkbox"
           className="toggle"
@@ -34,7 +45,15 @@ export default function TodoItem({ todo }) {
         <label>{todo.label}</label>
         <button className="destroy" onClick={onDelete} />
       </div>
-      <input className="edit" value={todo.label} onChange={onChange} />
+      {editing && (
+        <input
+          ref={ref}
+          className="edit"
+          value={todo.label}
+          onChange={onChange}
+          onKeyPress={onEnter}
+        />
+      )}
     </li>
   );
 }
