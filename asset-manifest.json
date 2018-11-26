@@ -1,15 +1,15 @@
 {
   "main.css": "/hooks-todo/static/css/main.253b314c.chunk.css",
-  "main.js": "/hooks-todo/static/js/main.3aa19144.chunk.js",
-  "main.js.map": "/hooks-todo/static/js/main.3aa19144.chunk.js.map",
+  "main.js": "/hooks-todo/static/js/main.59682bff.chunk.js",
+  "main.js.map": "/hooks-todo/static/js/main.59682bff.chunk.js.map",
   "static/css/1.5550bbaa.chunk.css": "/hooks-todo/static/css/1.5550bbaa.chunk.css",
   "static/js/1.4d21535b.chunk.js": "/hooks-todo/static/js/1.4d21535b.chunk.js",
   "static/js/1.4d21535b.chunk.js.map": "/hooks-todo/static/js/1.4d21535b.chunk.js.map",
   "runtime~main.js": "/hooks-todo/static/js/runtime~main.70222a08.js",
   "runtime~main.js.map": "/hooks-todo/static/js/runtime~main.70222a08.js.map",
-  "static/css/main.253b314c.chunk.css.map": "/hooks-todo/static/css/main.253b314c.chunk.css.map",
   "static/css/1.5550bbaa.chunk.css.map": "/hooks-todo/static/css/1.5550bbaa.chunk.css.map",
+  "static/css/main.253b314c.chunk.css.map": "/hooks-todo/static/css/main.253b314c.chunk.css.map",
   "index.html": "/hooks-todo/index.html",
-  "precache-manifest.0a374b7f6eb5e5754caa5e94f27abec2.js": "/hooks-todo/precache-manifest.0a374b7f6eb5e5754caa5e94f27abec2.js",
+  "precache-manifest.ec4b740d42944b98184f3860b3c03de8.js": "/hooks-todo/precache-manifest.ec4b740d42944b98184f3860b3c03de8.js",
   "service-worker.js": "/hooks-todo/service-worker.js"
 }
