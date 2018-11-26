@@ -1,15 +1,15 @@
 {
-  "main.css": "/hooks-todo/static/css/main.77336b16.chunk.css",
-  "main.js": "/hooks-todo/static/js/main.82d6bff2.chunk.js",
-  "main.js.map": "/hooks-todo/static/js/main.82d6bff2.chunk.js.map",
-  "static/css/1.1480fc60.chunk.css": "/hooks-todo/static/css/1.1480fc60.chunk.css",
-  "static/js/1.cf7d0eab.chunk.js": "/hooks-todo/static/js/1.cf7d0eab.chunk.js",
-  "static/js/1.cf7d0eab.chunk.js.map": "/hooks-todo/static/js/1.cf7d0eab.chunk.js.map",
-  "runtime~main.js": "/hooks-todo/static/js/runtime~main.70222a08.js",
-  "runtime~main.js.map": "/hooks-todo/static/js/runtime~main.70222a08.js.map",
-  "static/css/1.1480fc60.chunk.css.map": "/hooks-todo/static/css/1.1480fc60.chunk.css.map",
-  "static/css/main.77336b16.chunk.css.map": "/hooks-todo/static/css/main.77336b16.chunk.css.map",
-  "index.html": "/hooks-todo/index.html",
-  "precache-manifest.9e9cd02776f44f170b35877f7b1a3964.js": "/hooks-todo/precache-manifest.9e9cd02776f44f170b35877f7b1a3964.js",
-  "service-worker.js": "/hooks-todo/service-worker.js"
+  "main.css": "/static/css/main.77336b16.chunk.css",
+  "main.js": "/static/js/main.9b293e82.chunk.js",
+  "main.js.map": "/static/js/main.9b293e82.chunk.js.map",
+  "static/css/1.1480fc60.chunk.css": "/static/css/1.1480fc60.chunk.css",
+  "static/js/1.cf7d0eab.chunk.js": "/static/js/1.cf7d0eab.chunk.js",
+  "static/js/1.cf7d0eab.chunk.js.map": "/static/js/1.cf7d0eab.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.77336b16.chunk.css.map": "/static/css/main.77336b16.chunk.css.map",
+  "static/css/1.1480fc60.chunk.css.map": "/static/css/1.1480fc60.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.368706713b0e7ab879ccbe5ecfdef0ca.js": "/precache-manifest.368706713b0e7ab879ccbe5ecfdef0ca.js",
+  "service-worker.js": "/service-worker.js"
 }
