@@ -10,7 +10,7 @@ import App from "./App/App";
 import * as serviceWorker from "./serviceWorker";
 
 const root = document.getElementById("root");
-ReactDOM.createRoot(root).render(<App />);
+ReactDOM.render(<App />, root);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
